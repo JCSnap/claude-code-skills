@@ -10,19 +10,25 @@ A collection of custom skills for [Claude Code](https://docs.anthropic.com/en/do
 
 ## Installation
 
-### Quick install (symlink)
+### 1. Clone the repo
+
+```bash
+cd ~/Downloads && git clone https://github.com/JCSnap/claude-code-skills.git
+```
+
+### 2a. Quick install (symlink)
 
 Symlink a skill folder into your Claude Code skills directory:
 
 ```bash
-ln -s ~/Downloads/cc-skills/se-insights ~/.claude/skills/se-insights
+ln -s ~/Downloads/claude-code-skills/se-insights ~/.claude/skills/se-insights
 ```
 
-### Manual install (copy)
+### 2b. Manual install (copy)
 
 ```bash
 mkdir -p ~/.claude/skills/se-insights
-cp ~/Downloads/cc-skills/se-insights/SKILL.md ~/.claude/skills/se-insights/SKILL.md
+cp ~/Downloads/claude-code-skills/se-insights/SKILL.md ~/.claude/skills/se-insights/SKILL.md
 ```
 
 ### Verify installation

@@ -9,10 +9,14 @@ Bite-sized software engineering insights for passive learning while AI agents ha
 
 Insights are logged to `~/.claude/insights/log.md` as a searchable personal knowledge base.
 
+## Example
+
+![SE Insights example](_assets/se-insights-example.png)
+
 ## Installation
 
 ```bash
-ln -s ~/Projects/cc-skills/se-insights ~/.claude/skills/se-insights
+ln -s ~/Downloads/claude-code-skills/se-insights ~/.claude/skills/se-insights
 ```
 
 ### Required: CLAUDE.md trigger
