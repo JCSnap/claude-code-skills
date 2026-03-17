@@ -1,0 +1,13 @@
+{
+  "name": "cc-skills",
+  "version": "1.0.0",
+  "description": "A collection of Claude Code skills by JCSnap. Bite-sized SE insights, and more to come.",
+  "author": {
+    "name": "JCSnap",
+    "url": "https://github.com/JCSnap"
+  },
+  "homepage": "https://github.com/JCSnap/claude-code-skills",
+  "repository": "https://github.com/JCSnap/claude-code-skills",
+  "license": "MIT",
+  "keywords": ["learning", "software-engineering", "insights", "skills"]
+}

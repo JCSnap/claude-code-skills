@@ -15,8 +15,17 @@ Insights are logged to `~/.claude/insights/log.md` as a searchable personal know
 
 ## Installation
 
+### Via plugin marketplace
+
+```shell
+/plugin marketplace add JCSnap/claude-code-skills
+/plugin install cc-skills@jcsnap-skills
+```
+
+### Via symlink
+
 ```bash
-ln -s ~/Downloads/claude-code-skills/se-insights ~/.claude/skills/se-insights
+ln -s ~/Downloads/claude-code-skills/skills/se-insights ~/.claude/skills/se-insights
 ```
 
 ### Required: CLAUDE.md trigger

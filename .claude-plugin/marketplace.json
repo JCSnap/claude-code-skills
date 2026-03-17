@@ -1,0 +1,19 @@
+{
+  "name": "jcsnap-skills",
+  "owner": {
+    "name": "JCSnap",
+    "email": "jcsnap@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills by JCSnap — SE insights and more"
+  },
+  "plugins": [
+    {
+      "name": "cc-skills",
+      "source": "./",
+      "description": "A collection of Claude Code skills including SE insights for passive learning while AI agents handle implementation.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/JCSnap/claude-code-skills"
+    }
+  ]
+}
