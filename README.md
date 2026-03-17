@@ -1,12 +1,12 @@
 # Claude Code Skills
 
-A collection of custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Each folder contains one skill.
+A collection of custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) by JCSnap. Each folder contains one skill.
 
 ## Skills
 
 | Skill | Description |
 |-------|-------------|
-| [se-insights](./se-insights/) | Bite-sized software engineering insights delivered at session start and after substantial implementations. Builds a personal SE knowledge base over time. |
+| [se-insights](./se-insights/) | Bite-sized software engineering insights delivered at session start and after substantial implementations. Builds a personal SE knowledge base over time. Prevents brain rot for using claude code too much. |
 
 ## Installation
 
@@ -15,18 +15,14 @@ A collection of custom skills for [Claude Code](https://docs.anthropic.com/en/do
 Symlink a skill folder into your Claude Code skills directory:
 
 ```bash
-# For default Claude Code installation
-ln -s ~/Projects/cc-skills/se-insights ~/.claude/skills/se-insights
-
-# For a second Claude Code account (e.g. ~/.claude-2)
-ln -s ~/Projects/cc-skills/se-insights ~/.claude-2/skills/se-insights
+ln -s ~/Downloads/cc-skills/se-insights ~/.claude/skills/se-insights
 ```
 
 ### Manual install (copy)
 
 ```bash
 mkdir -p ~/.claude/skills/se-insights
-cp ~/Projects/cc-skills/se-insights/SKILL.md ~/.claude/skills/se-insights/SKILL.md
+cp ~/Downloads/cc-skills/se-insights/SKILL.md ~/.claude/skills/se-insights/SKILL.md
 ```
 
 ### Verify installation
